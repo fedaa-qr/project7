@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: cornflowerblue;
+    padding: 15px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+nav h1{
+    text-align: center;
+    color: white;
+    display: inline-block;
+    margin-left: 39%;
+    justify-content: center;
+    background-color: crimson;
+}
+nav .list .list1{
+    margin-top: 35px;
+   list-style: none;
+   display: flex;
+   justify-content: space-around;
+}
+nav .list .list1 li a{
+   color: white;
+   text-decoration: none;
+}
+nav .list .list1 li:nth-child(3){
+    border: 1px solid white;
+    border-radius: 13px;
+    padding: 3px;
+}
+nav .list .list2{
+    list-style: none;
+    background-color: white;
+    display: none;
+    position: absolute;
+    width: 10%;
+    border: 1px solid darkkhaki;
+    border-radius: 9px;
+    transition: 0.5s 0s ease-in;
+}
+.active{
+    display: block !important;
+}
+nav .list .list2 li{
+   padding: 5px;
+}
+nav .list .list2 li:hover{
+    font-weight: 500;
+    border-bottom:1px solid red;
+    width: 85px;
+   
+}
+nav .list .list2 li a{
+    color: black;
+}
+.part1 {
+    border: 1px solid rosybrown;
+    width: 80%;
+    margin: auto;
+  box-shadow:  2px 2px 5px 3px rgb(223 213 213), 
+  -2px -2px 5px 3px rgb(223 213 213);
+  transition: all 0.4s;
+}
+.part1  h1{
+    color: white;
+    display: inline-block;
+    justify-content: center;
+    background-color: crimson;
+}
+.part1 .row .col-4 div a:nth-child(1){
+    text-decoration: none;
+    color:white;
+    padding: 7px;
+    background-color: red;
+    margin-right: 10px;
+}
+.part1 .row .col-4 div a:nth-child(2){
+    text-decoration: none;
+    color:white;
+    padding: 7px;
+    background-color: blue;
+}
+.part1 .row .col img{
+    border-radius: 50%;
+    width:150px;
+    height:150px;
+}
+.part2 {
+    border: 1px solid rosybrown;
+    width: 80%;
+    height: 545px;
+    margin: auto;
+  box-shadow:  2px 2px 5px 3px rgb(223 213 213), 
+  -2px -2px 5px 3px rgb(223 213 213);
+  transition: all 0.4s;
+}
+.part2 h1{
+    color: white;
+    display: inline-block;
+    justify-content: center;
+    background-color: crimson;
+}
+#youtybe{
+    margin-top: 20px;
+}
+#video{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    animation: move 1s 1;
+}
+
+@keyframes move{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+#moving,#moving2,#moving3{
+  margin-top: 30px;
+  text-align: center;
+}
+#randomvideo,#randomquotes,#randomheart{
+    padding: 12px;
+    background-color: cadetblue;
+    color: white;
+    text-decoration: none;
+}
+
+.part3 {
+    border: 1px solid rosybrown;
+    width: 80%;
+    height: 200px;
+    margin: auto;
+  box-shadow:  2px 2px 5px 3px rgb(223 213 213), 
+  -2px -2px 5px 3px rgb(223 213 213);
+  transition: all 0.4s;
+}
+#graph{
+    font-weight: bold;
+    font-size: 20px;
+    animation: quotes 0.4s 1;
+}
+@keyframes quotes{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.part4 {
+    border: 1px solid rosybrown;
+    width: 80%;
+    height: 200px;
+    margin: auto;
+  box-shadow:  2px 2px 5px 3px rgb(223 213 213), 
+  -2px -2px 5px 3px rgb(223 213 213);
+  transition: all 0.4s;
+}
+.part4 .heart{
+    font-size: 30px;
+    /* اختصارا */
+    animation: love 1s 1 linear forwards;
+    /* animation-duration:1s ; */
+    /* animation-timing-function: linear;
+    animation-fill-mode: forwards; */
+    position: fixed;
+    top:0;
+}
+@keyframes love{
+    0%{
+       transform: translateY(-5vh);
+    }
+    100%{
+     transform: translateY(190vh);
+    }
+}
+
+.color{
+    background-color: rgb(204, 192, 192);
+}

@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cool1,.cool2,.cool3{
+    margin-top: 30px;
+}
+ .according {
+    padding: 0 100px 0  100px;
+}
+.according .graph1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0  10px;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 20px;
+
+}
+ .according .graph1  i{
+    cursor: pointer;
+}
+.according .graph2{
+    height: 0;
+    opacity: 0;
+    background-color:lightblue;
+    padding: 20px;
+    transition: all 0.4s ease;
+}
+
+.active{
+     /* height: 160px !important; */
+     opacity: 1 !important;
+}

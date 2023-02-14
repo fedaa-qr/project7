@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+   width: 200px;
+    background-color: cadetblue;
+    margin:auto;
+    transition: all 0.4s;
+}
+section:hover{
+    width: 220px;
+    box-shadow: 5px 5px 17px rgb(112, 229, 233);
+    background-color:cadetblue;
+}
